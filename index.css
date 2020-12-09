@@ -1,0 +1,77 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.container{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    position: relative;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+.container .items{
+    width: 800%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    animation: moverItems 20s linear infinite;
+}
+
+.container .items:hover{
+    animation-play-state: paused;
+}
+
+.container .items .item{
+    width: 12.5%;
+    height: 100%;
+    float: left;
+}
+
+.container .items .item1{
+    background-image: url( 'imagenes/img1.jpg' );
+    background-size: cover;
+}
+
+.container .items .item2{
+    background-image: url( 'imagenes/img2.png' );
+    background-size: cover;
+}
+
+.container .items .item3{
+    background-image: url( 'imagenes/img3.jpg' );
+    background-size: cover;
+}
+
+.container .items .item4{
+    background-image: url( 'imagenes/img4.jpg' );
+    background-size: cover;
+}
+
+.container .items .item5{
+    background-image: url( 'imagenes/img5.jpg' );
+    background-size: cover;
+}
+
+.container .items .item6{
+    background-image: url( 'imagenes/img6.jpg' );
+    background-size: cover;
+}
+
+.container .items .item7{
+    background-image: url( 'imagenes/img7.png' );
+    background-size: cover;
+}
+
+@keyframes moverItems{
+    from{
+        left: 0%
+    }
+    to{
+        left: -700%;
+    }
+}

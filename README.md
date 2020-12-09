@@ -1,0 +1,1 @@
+En este repositorio encontrarás un slideshow hecho sólo con HTML y CSS.
